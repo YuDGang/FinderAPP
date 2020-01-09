@@ -5,7 +5,7 @@
     <router-view></router-view>
     <van-tabbar route active-color="#1659a0">
       <van-tabbar-item icon="https://cdn4.iconfinder.com/data/icons/shopping-e-commerce-1/128/Trust-Handshake-Partner-Deal-64.png" to="/manager/home">租赁</van-tabbar-item>
-      <van-tabbar-item icon="https://cdn4.iconfinder.com/data/icons/shopping-e-commerce-1/128/Special-Top-List-64.png" to="/manager/order">订单</van-tabbar-item>
+      <van-tabbar-item icon="https://cdn4.iconfinder.com/data/icons/shopping-e-commerce-1/128/Special-Top-List-64.png" to="/manager/rent">出租</van-tabbar-item>
       <van-tabbar-item icon="https://cdn4.iconfinder.com/data/icons/shopping-e-commerce-1/128/Tag-Price-Label-64.png" to="/manager/user">我的</van-tabbar-item>
     </van-tabbar>
   </div>

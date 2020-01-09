@@ -3,8 +3,10 @@ import VueRouter from 'vue-router'
 // 管理页面
 import Manager from '../views/manager/Index'
 import Home from '../views/manager/Home'
+import Rent from '../views/manager/Rent'
 import Order from '../views/manager/Order'
 import User from '../views/manager/User'
+
 // 登录页面
 import Login from '../views/Login'
 import { getToken } from '../utils/auth'
@@ -45,6 +47,9 @@ const routes = [
     children:[{
         path: 'home',
         component: Home,
+      },{
+        path: 'rent',
+        component: Rent,
       },{
         path: 'order',
         component: Order,

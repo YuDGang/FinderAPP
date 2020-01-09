@@ -100,14 +100,14 @@ export default {
 <style scoped>
 .box {
     width: 400px;
-    height: 230px;
+    height: 225px;
     /* border: 20px solid; */
 }
 .home {
   padding-bottom: 50px;
 }
 .header {
-  height: 225px;
+  height: 230px;
   overflow: hidden;
 }
 .header img {
