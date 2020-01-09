@@ -4,14 +4,14 @@
 
  
         <video 
-          id="my-video"
-          class="video-js vjs-default-skin box"
-          controls 
+          id ="myVideo"
+          class="video-js vjs-default-skin box" 
           preload="auto"
+          autoplay = "autoplay"
         >
             <source
-                src=" https://du.hupucdn.com/ltcJ4VzrjX-sYBpRB3sQKhVYtWzL"
-                type="application/x-mpegURL"
+                src="../../assets/720.mp4"
+                type="video/mp4"
             />
         </video>
     </header>
@@ -43,13 +43,6 @@
 </template>
 
 
-
-
-
-
-
-
-
 <script>
 import {get,post} from '../../http/axios';
 import videojs from 'video.js'
@@ -69,7 +62,7 @@ export default {
   },
   methods:{
      mounted() {
-        videojs("my-video", 
+        videojs("myVideo", 
             function() {
             this.play();
         });
@@ -103,14 +96,14 @@ export default {
 <style scoped>
 .box {
     width: 400px;
-    height: 300px;
+    height: 230px;
     /* border: 20px solid; */
 }
 .home {
   padding-bottom: 50px;
 }
 .header {
-  height: 300px;
+  height: 225px;
   overflow: hidden;
 }
 .header img {

@@ -5,6 +5,10 @@ import store from './store'
 import './plugins/vant.js'
 import moment from 'moment'
 import './common.css'
+import Video from 'video.js'
+import 'video.js/dist/video-js.css'
+
+Vue.prototype.$video = Video
 
 // 全局注册自定义组件
 import FullLayout from './components/FullLayout'
