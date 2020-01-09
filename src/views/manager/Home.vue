@@ -4,10 +4,12 @@
 
  
         <video 
-          id ="myVideo"
-          class="video-js vjs-default-skin box" 
-          preload="auto"
-          autoplay = "autoplay"
+          id = "myVideo"
+          class = "video-js vjs-default-skin box" 
+          controls
+          preload = "auto"
+          autoplay = "muted"
+         
         >
             <source
                 src="../../assets/720.mp4"
@@ -61,6 +63,8 @@ export default {
     this.loadProducts();
   },
   methods:{
+
+    
      mounted() {
         videojs("myVideo", 
             function() {
