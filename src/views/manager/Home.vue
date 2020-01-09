@@ -1,12 +1,27 @@
 <template>
-  <div class="home">
-    <!-- 头部图片 -->
+<div>
     <header class="header">
-      <img src="../../assets/home.jpg" alt="">
+
+ 
+        <video 
+          id="my-video"
+          class="video-js vjs-default-skin box"
+          controls 
+          preload="auto"
+        >
+            <source
+                src=" https://du.hupucdn.com/ltcJ4VzrjX-sYBpRB3sQKhVYtWzL"
+                type="application/x-mpegURL"
+            />
+        </video>
     </header>
+
+    
+    
     <!-- 内容区域 -->
-    <div>
+
       <!-- 分类 6个-->
+     
       <van-grid :column-num="3">
         <van-grid-item
           v-for="value in categories"
@@ -23,12 +38,22 @@
         :data="p">
       </briup-product-item>
       <!-- /产品 -->
-    </div>
-   
-  </div>
+  
+      </div>
 </template>
+
+
+
+
+
+
+
+
+
 <script>
 import {get,post} from '../../http/axios';
+import videojs from 'video.js'
+import 'videojs-contrib-hls'
 export default {
   data(){
     return {
@@ -43,6 +68,12 @@ export default {
     this.loadProducts();
   },
   methods:{
+     mounted() {
+        videojs("my-video", 
+            function() {
+            this.play();
+        });
+    },
     toBuyHandler(p){
       // 跳转到订单确认页面，并且携带数据p
       this.$router.push({
@@ -70,6 +101,11 @@ export default {
 }
 </script>
 <style scoped>
+.box {
+    width: 400px;
+    height: 300px;
+    /* border: 20px solid; */
+}
 .home {
   padding-bottom: 50px;
 }
