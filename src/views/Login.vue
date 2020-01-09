@@ -1,10 +1,9 @@
 <template>
   <div class="login">
     <div class="header">
-      <div class="logo">家</div>
-      <div class="title">
-        家政服务云平台
-        <span style="font-size:.8em">顾客端</span>
+      <div class="logo">ACE</div>
+      <div class="title"><pre>ACE在线开黑平台<br/>躺好！别动！
+        </pre><span style="font-size:.8em"></span>
       </div>
     </div>
     <div class="form">

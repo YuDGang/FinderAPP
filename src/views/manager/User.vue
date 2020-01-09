@@ -7,11 +7,11 @@
       <div class="name">{{info.name}}</div>
     </div>
     
-    <van-cell title="常用地址" is-link to="/manager/address" />
+    <van-cell title="常用大区" is-link to="/manager/address" />
     <van-cell title="所有订单" is-link to="/manager/order" />
 
     <div class="btn" @click="logoutHandler">
-      退出
+      切换账号
     </div>
   </div>
 </template>

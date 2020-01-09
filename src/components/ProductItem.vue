@@ -7,9 +7,9 @@
         <img v-else src="../assets/service.png" alt="">
       </van-col>
       <van-col :offset="1" :span="19">
-        <div> <strong>名称：</strong> {{data.name}}</div>
-        <div> <strong>价格：</strong> {{data.price}}</div>
-        <div> <strong>描述：</strong> {{data.description}}</div>
+        <div> <strong>游戏大区：</strong> {{data.name}}</div>
+        <div> <strong>陪玩段位：</strong> {{data.description}}</div>
+        <div> <strong>开黑价格：</strong> {{data.price}}</div>
       </van-col>
     </van-row>
   </div>

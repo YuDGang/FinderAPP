@@ -1,24 +1,14 @@
 <template>
-  <briup-fulllayout title="新增地址">
+  <briup-fulllayout title="新增大区">
     <div>
       {{form}}
       <van-cell-group>
-        <van-field v-model="form.telephone" placeholder="手机号" />
+        <van-field v-model="form.telephone" placeholder="游戏ID" />
       </van-cell-group>
       <van-cell-group>
-        <van-field v-model="form.province" placeholder="省" />
+        <van-field v-model="form.province" placeholder="游戏大区" />
       </van-cell-group>
-       <van-cell-group>
-        <van-field v-model="form.city" placeholder="市" />
-      </van-cell-group>
-       <van-cell-group>
-        <van-field v-model="form.area" placeholder="区" />
-      </van-cell-group>
-      <van-cell-group>
-        <van-field v-model="form.address" placeholder="详细地址" />
-      </van-cell-group>
-
-      <van-button block type="primary" @click="submitHandler">保存</van-button>
+      <van-button block type="primary" @click="submitHandler">Rush !!!</van-button>
 
     </div>
   </briup-fulllayout>

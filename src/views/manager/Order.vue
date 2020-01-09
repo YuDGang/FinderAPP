@@ -1,12 +1,11 @@
 <template>
   <div class="order">
-    <van-nav-bar title="我的订单" />
+    <van-nav-bar title="我的开黑" />
     <van-tabs @click="tabClickHandler" v-model="active" color="#1659a0">
       <van-tab title="全部"></van-tab>
-      <van-tab title="待派单"></van-tab>
-      <van-tab title="待接单"></van-tab> 
-      <van-tab title="待服务"></van-tab> 
-      <van-tab title="待确认"></van-tab> 
+      <van-tab title="等待中"></van-tab>
+      <van-tab title="开黑中"></van-tab> 
+      <van-tab title="待评价"></van-tab> 
       <van-tab title="已完成"></van-tab>
     </van-tabs>
     <!-- 订单 -->
