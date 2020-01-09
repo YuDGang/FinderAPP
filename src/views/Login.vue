@@ -1,8 +1,10 @@
 <template>
   <div class="login">
     <div class="header">
-      <div class="logo">ACE</div>
-      <div class="title"><pre>ACE在线开黑平台<br/>躺好！别动！
+      <div>
+        <img src=https://cdn0.iconfinder.com/data/icons/photo-cameras/164/leica-m32x-64.png>
+        </div>
+      <div class="title"><pre><h5>Finder共享租赁<br/>安全承诺-共享专业器材</h5>
         </pre><span style="font-size:.8em"></span>
       </div>
     </div>
