@@ -15,8 +15,6 @@
         :data="o">
       </briup-order-item>
     </div>      
-
-
   </div>
 </template>
 <script>

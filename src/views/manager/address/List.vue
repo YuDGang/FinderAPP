@@ -1,5 +1,5 @@
 <template>
-  <briup-fulllayout title="常用大区">
+  <briup-fulllayout title="常用地址">
     <!-- {{addresses}} -->
     <!-- {{info}} -->
     <van-list>

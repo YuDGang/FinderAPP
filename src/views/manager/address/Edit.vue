@@ -1,12 +1,12 @@
 <template>
-  <briup-fulllayout title="新增大区">
+  <briup-fulllayout title="新增地址">
     <div>
       {{form}}
       <van-cell-group>
-        <van-field v-model="form.telephone" placeholder="游戏ID" />
+        <van-field v-model="form.telephone" placeholder="联系方式" />
       </van-cell-group>
       <van-cell-group>
-        <van-field v-model="form.province" placeholder="游戏大区" />
+        <van-field v-model="form.province" placeholder="省份" />
       </van-cell-group>
       <van-button block type="primary" @click="submitHandler">Rush !!!</van-button>
 

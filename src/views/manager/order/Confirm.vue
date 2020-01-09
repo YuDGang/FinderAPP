@@ -1,15 +1,15 @@
 <template>
   <briup-fulllayout title="订单确认">
-    服务地址
+    邮寄地址:
     <van-dropdown-menu>
       <van-dropdown-item v-model="addressId" :options="options" />
     </van-dropdown-menu>
-    详情:
+    订单详情:
     <div style="padding:0 2em">
       <p>设备名称：{{$route.query.name}}</p>
       <p>设备详情：{{$route.query.description}}</p>
-      <p>租赁报价：￥{{$route.query.price}}/天</p>
-      <p>租赁时长：1 天</p>
+      <p>商定租金：￥{{$route.query.price}}/天</p>
+      <p>租赁时长：1天</p>
     </div>
     <div style="position:fixed;bottom:0;width:100%;">
       <van-button @click="submitHandler" block type="primary">提交订单</van-button>
