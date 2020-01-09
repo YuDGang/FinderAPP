@@ -1,10 +1,8 @@
 <template>
   <div class="login">
     <div class="header">
-      <div>
-        <img src=https://cdn0.iconfinder.com/data/icons/photo-cameras/164/leica-m32x-64.png>
-        </div>
-      <div class="title"><pre><h5>Finder共享租赁<br/>安全承诺-共享专业器材</h5>
+      <div class="title"><pre>
+        <h5><br/><br/><br/>Finder共享租赁<br/>安全承诺-共享专业器材</h5>
         </pre><span style="font-size:.8em"></span>
       </div>
     </div>
@@ -57,13 +55,16 @@ export default {
   }
 }
 </script>
+
 <style scoped>
 .header {
-  height: 140px;
+  height: 180px;
   padding: 50px;
   color: #ffffff;
+  background: url('../assets/loginBG0.jpg') center center no-repeat;
+  background-size: 420px auto;
   background-color: #1659a0;
-  text-align: center
+  text-align:center
 }
 .header .logo {
   width: 50px;
