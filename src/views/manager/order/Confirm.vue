@@ -7,7 +7,7 @@
     详情:
     <div style="padding:0 2em">
       <p>设备名称：{{$route.query.name}}</p>
-      <p>租赁价格：￥{{$route.query.price}}/天</p>
+      <p>租赁报价：￥{{$route.query.price}}/天</p>
       <p>租赁时长：1 天</p>
     </div>
     <div style="position:fixed;bottom:0;width:100%;">

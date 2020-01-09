@@ -1,11 +1,10 @@
 <template>
   <div class="order">
-    <van-nav-bar title="我的开黑" />
+    <van-nav-bar title="租赁列表" />
     <van-tabs @click="tabClickHandler" v-model="active" color="#1659a0">
       <van-tab title="全部"></van-tab>
       <van-tab title="等待中"></van-tab>
-      <van-tab title="开黑中"></van-tab> 
-      <van-tab title="待评价"></van-tab> 
+      <van-tab title="租赁中"></van-tab>  
       <van-tab title="已完成"></van-tab>
     </van-tabs>
     <!-- 订单 -->

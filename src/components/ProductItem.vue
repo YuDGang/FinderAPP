@@ -8,7 +8,7 @@
       </van-col>
       <van-col :offset="1" :span="19">
         <div> <strong>设备名称：</strong> {{data.name}}</div>
-        <div> <strong>租赁价格：￥</strong> {{data.price}}/天</div>
+        <div> <strong>租赁报价：￥</strong> {{data.price}}/天</div>
       </van-col>
     </van-row>
   </div>
