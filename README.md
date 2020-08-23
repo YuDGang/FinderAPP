@@ -8,7 +8,7 @@
 
 ### 界面展示
 
-
+![image](https://github.com/YuDGang/vue-APP/blob/master/display/01.png)
 
 ![image](https://github.com/YuDGang/vue-APP/blob/master/display/02.png)
 
