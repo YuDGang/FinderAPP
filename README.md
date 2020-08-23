@@ -1,27 +1,11 @@
-# jz_customer
+# Finder摄影器材租赁平台 - 移动端
 
-## Project setup
-```
-yarn install
-```
+![image](https://github.com/YuDGang/vue-APP/blob/master/display/000.png)
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+![image](https://github.com/YuDGang/vue-APP/blob/master/display/1.png)
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+![image](https://github.com/YuDGang/vue-APP/blob/master/display/02.png)
 
-### Run your tests
-```
-yarn run test
-```
+![image](https://github.com/YuDGang/vue-APP/blob/master/display/03.png)
 
-### Lints and fixes files
-```
-yarn run lint
-```
-
+![image](https://github.com/YuDGang/vue-APP/blob/master/display/04.png)
